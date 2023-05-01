@@ -1,5 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Poppins:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 
 }
+
+.padre{
+    height: 100vh;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0 70px 0 70px;
+}
+
+
+.uno{
+    background: url(foto.jpg);
+    background-position: center;
+    height: 601px;
+    width: 525px;
+    justify-content: center;
+    border-radius: 15px;
+    
+}   
+
+.dos{
+    background-color: white;
+    height: 601px;
+    width: 400px;
+    border: 2px solid rgb(206, 195, 195);
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+       
+    
+}
+
+.dos_h1{
+    color:  rgb(70, 67, 67);
+    text-shadow: 0.3px 0.3px  rgb(70, 67, 67);
+    margin:13px 0 22px 0;
+    
+}
+
+.dos_iconos{
+
+    display: flex;
+    justify-content:space-between;
+    margin: 0 39px 0 42px;
+    
+}
+
+.iconoGoogle{
+    
+    height: 49px;
+    width: 74px;
+    border: 2px solid rgb(224, 213, 213);
+    border-radius: 5px;
+}
+
+.iconoGoogleMod{
+
+    margin-left: 2px;
+    margin-top: 8px;
+    height: 34px;
+    width: 34px;
+}
+
+
+.iconoFacebook{
+    
+    height: 49px;
+    width: 74px;
+    border: 2px solid rgb(224, 213, 213);
+    border-radius: 5px;
+}
+
+.iconoFacebookMod{
+    margin-top: 11px;
+    height: 29px;
+    width: 29px;
+}
+
+.iconoApple{
+    
+    height: 49px;
+    width: 74px;
+    border: 2px solid rgb(224, 213, 213);
+    border-radius: 5px;
+}
+
+.iconoAppleMod{
+    margin-left: 2px;
+    margin-top: 10px;
+    height: 29px;
+    width: 29px;
+}
+
+
+.dos_continueLineas{
+    display: flex;
+}
+
+.dos_continue{
+    font-size: 14px;
+    color: rgb(128, 122, 122);
+    text-shadow: 0.4px 0.4 rgb(128, 122, 122);
+    margin: 19px 0 17px 0;
+}
+
+.dos_emailboton{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 20px 10px 22px 12px;
+}
+
+.botonEmail{
+    text-decoration:none;
+    background-color: rgba(245, 110, 7, 0.958);
+    color: white;
+    padding: 10px 27px 10px 27px;
+    border:none;
+    border: 2px solid rgba(245, 110, 7, 0.958);
+    border-radius: 10px;
+    font-size: 13.5px;
+    text-shadow: 0.2px 0.2px white;    
+}
+
+.botonEmail{
+    transition: background 0.5s,
+                transform 0.5s;
+                
+}
+
+.botonEmail:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color:  rgba(245, 110, 7, 0.958);
+
+}
+
+.botonMobile{
+    text-decoration:none;
+    padding-top:10px;
+    background-color: white;
+    color: rgb(92, 85, 85);
+    text-shadow: 0.3px 0.3px rgb(92, 85, 85);
+    /* padding: 10px 25px 10px 25px; */
+    border: none;
+    font-size: 15.5px;
+    letter-spacing: 0.2px;
+}
+
+.botonMobile{
+    transition: background 0.5s,
+                transform 0.5s;
+                
+}
+
+.botonMobile:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: rgb(92, 85, 85);
+
+}
+
+.dos_emailForm{
+    text-align: left;
+    margin-left: 42px;
+    color: rgb(121, 113, 113);
+    font-size: 14.5px;
+    letter-spacing: 0.2px;
+    margin-bottom: 7px;
+}
+
+
+.formularioEmail{
+    text-align: left;
+    margin-left: 42px;
+}
+
+.formularioEmailBloque{
+    border:0;
+    outline: none;
+    border: 2px solid rgb(190, 177, 177);    
+    padding: 13px;
+    padding-right: 162.5px;
+    border-radius: 9px;    
+}
+
+.dos_password{    
+    text-align: left;
+    margin-top: 19px;
+    margin-left: 42px;
+    color: rgb(121, 113, 113);
+    font-size: 14.5px;
+    letter-spacing: 0.2px;
+    margin-bottom: 7px;
+}
+
+.formularioPassword{
+    text-align: left;
+    margin-left: 42px;    
+}
+
+.formularioPasswordBloque{
+    border:0;
+    outline: none;
+    border: 2px solid rgb(190, 177, 177);    
+    padding: 13px;
+    padding-right: 162.5px;
+    border-radius: 9px;    
+}
+
+.dos_forgotPassword{    
+    margin-top: 4px;
+    text-align: left;
+    margin-left: 42px;
+    margin-bottom: 43px;
+              
+}
+
+.linkForgotPassword{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(121, 113, 113);
+    font-size: 14.5px;
+    letter-spacing: 0.2px;
+    text-shadow: 0.4px 0.4px  rgb(121, 113, 113);  
+}
+
+.linkForgotPassword{
+    transition: background 1s,
+                 transform 1s;                
+}
+
+.linkForgotPassword:hover{
+    
+    background-color: white;
+    color:rgba(245, 110, 7, 0.958);
+
+}
+
+.dos_botonSignIn{
+    text-decoration:none;
+    background-color: rgba(245, 110, 7, 0.958);
+    color: white;
+    padding: 15px 72px 15px 72px;
+    border:none;
+    border: 2px solid rgba(245, 110, 7, 0.958);
+    border-radius: 10px;
+    font-size: 13.5px;
+    text-shadow: 0.2px 0.2px white;
+        
+}
+
+.dos_botonSignIn{
+    transition: background 0.5s,
+                transform 0.5s;                
+}
+
+.dos_botonSignIn:hover{
+    
+    transform: (1.2);
+    background-color: white;
+    color:  rgba(245, 110, 7, 0.958);
+    
+}
+
+.dos_account{
+    margin: 24px 0 5px 0;
+    font-size: 14.5px;
+    color: rgb(130, 118, 118);
+    text-shadow: 0.1px 0.1px  rgb(130, 118, 118);
+}
+
+.dos_register{
+    color: rgba(245, 110, 7, 0.933);
+    text-shadow: 0.3px 0.3px rgba(245, 110, 7, 0.958);
+    
+}
+
+.dos_register{
+    transition: background 0.5s,
+                transform 0.5s;                
+}
+
+.dos_register:hover{
+    
+    transform: (1.2);
+    background-color: white;
+    color:  rgb(121, 113, 113);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
